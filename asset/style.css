@@ -1,0 +1,42 @@
+.jumbroton {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#project {
+  background-color: #e2edff;
+}
+
+.shadow {
+  box-shadow: 2px 2px black;
+}
+
+.brad {
+  border-radius: 5px;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* class a for animation */
+.a {
+  position: relative;
+  overflow: hidden;
+}
+
+.a::before {
+  content: "";
+  position: absolute;
+  background: white;
+
+  left: -10px;
+  width: 7px;
+  top: 0;
+  bottom: 0;
+}
+
+.a:hover::before {
+  left: calc(100% + 10px);
+  transition: left 700ms;
+}
